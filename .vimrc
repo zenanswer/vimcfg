@@ -14,4 +14,5 @@ autocmd FileType java set shiftwidth=4 | set expandtab
 
 if has("autocmd")
 	autocmd FileType java setlocal omnifunc=javacomplete#Complete
+	autocmd FileType java setlocal completefunc=javacomplete#CompleteParamsInfo
 endif
