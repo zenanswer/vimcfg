@@ -16,3 +16,5 @@ if has("autocmd")
 	autocmd FileType java setlocal omnifunc=javacomplete#Complete
 	autocmd FileType java setlocal completefunc=javacomplete#CompleteParamsInfo
 endif
+
+set showtabline=2
